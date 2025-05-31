@@ -1,0 +1,3 @@
+/home/rich/github-projects/nucelon/build/CMakeFiles/myon.dir
+/home/rich/github-projects/nucelon/build/CMakeFiles/edit_cache.dir
+/home/rich/github-projects/nucelon/build/CMakeFiles/rebuild_cache.dir

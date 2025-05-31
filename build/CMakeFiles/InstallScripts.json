@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/rich/github-projects/nucelon/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
