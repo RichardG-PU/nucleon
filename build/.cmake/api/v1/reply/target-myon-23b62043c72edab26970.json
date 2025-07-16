@@ -11,11 +11,16 @@
 		"commands" : 
 		[
 			"add_executable",
+			"target_link_libraries",
+			"set_property",
+			"find_package",
+			"set_target_properties",
 			"include_directories"
 		],
 		"files" : 
 		[
-			"CMakeLists.txt"
+			"CMakeLists.txt",
+			"/usr/share/cmake/Modules/FindOpenGL.cmake"
 		],
 		"nodes" : 
 		[
@@ -25,11 +30,39 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 8,
+				"line" : 9,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
+				"file" : 0,
+				"line" : 12,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 11,
+				"parent" : 0
+			},
+			{
+				"file" : 1,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 712,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 710,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
 				"file" : 0,
 				"line" : 6,
 				"parent" : 0
@@ -48,7 +81,7 @@
 			"includes" : 
 			[
 				{
-					"backtrace" : 2,
+					"backtrace" : 7,
 					"path" : "/home/rich/github-projects/nucelon/include"
 				}
 			],
@@ -70,6 +103,24 @@
 	"id" : "myon::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
+		"commandFragments" : 
+		[
+			{
+				"backtrace" : 2,
+				"fragment" : "-lglfw",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/usr/lib/libGLX.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/usr/lib/libOpenGL.so",
+				"role" : "libraries"
+			}
+		],
 		"language" : "CXX"
 	},
 	"name" : "myon",

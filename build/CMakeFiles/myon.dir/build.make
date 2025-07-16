@@ -96,6 +96,8 @@ myon_EXTERNAL_OBJECTS =
 myon: CMakeFiles/myon.dir/src/main.cpp.o
 myon: CMakeFiles/myon.dir/build.make
 myon: CMakeFiles/myon.dir/compiler_depend.ts
+myon: /usr/lib/libGLX.so
+myon: /usr/lib/libOpenGL.so
 myon: CMakeFiles/myon.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/rich/github-projects/nucelon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable myon"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/myon.dir/link.txt --verbose=$(VERBOSE)
