@@ -4,7 +4,8 @@
 int main() {
     glfwInit();
 
-    GLFWwindow* window = glfwCreateWindow(800, 600, "nucleon", nullptr, nullptr);
+    GLFWwindow *window =
+        glfwCreateWindow(800, 600, "nucleon", nullptr, nullptr);
     if (window == NULL) {
         std::cout << "Failed to create GLFW window" << std::endl;
         glfwTerminate();
@@ -22,4 +23,3 @@ int main() {
     glfwTerminate();
     return 0;
 }
-
